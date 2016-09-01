@@ -23,9 +23,18 @@
                         'price'
                     ],
                     'variationImageList' => [
+                    	'imageId',
                         'path',
                         'cleanImageName'
-                    ]
+                    ],
+                    'variationCategoryList' =>  [
+                        'categoryId',
+                        'position'
+                    ], 	
+                    'variationBarcodeList' =>  [
+                        'code'
+                      ] 
+                    
                 ];
 
                 $itemFilter = [
@@ -35,7 +44,7 @@
                 ];
 
                 $itemParams = [
-                    'language' => 'en'
+                    'language' => 'de'
                 ];
 
                 $resultItems = $itemRepository
